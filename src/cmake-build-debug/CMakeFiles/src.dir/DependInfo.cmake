@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/add-nbo.c" "/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/cmake-build-debug/CMakeFiles/src.dir/add-nbo.c.o"
   "/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/main.c" "/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/cmake-build-debug/CMakeFiles/src.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

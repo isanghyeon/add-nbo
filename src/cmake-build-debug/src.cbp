@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/add-nbo.cpp">
+		<Unit filename="/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/add-nbo.c">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/add-nbo.h">

@@ -142,6 +142,33 @@ src/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
+add-nbo.o: add-nbo.c.o
+
+.PHONY : add-nbo.o
+
+# target to build an object file
+add-nbo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.o
+.PHONY : add-nbo.c.o
+
+add-nbo.i: add-nbo.c.i
+
+.PHONY : add-nbo.i
+
+# target to preprocess a source file
+add-nbo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.i
+.PHONY : add-nbo.c.i
+
+add-nbo.s: add-nbo.c.s
+
+.PHONY : add-nbo.s
+
+# target to generate assembly for a file
+add-nbo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.s
+.PHONY : add-nbo.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
+	@echo "... add-nbo.o"
+	@echo "... add-nbo.i"
+	@echo "... add-nbo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

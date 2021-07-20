@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/src.dir/add-nbo.c.o"
   "CMakeFiles/src.dir/main.c.o"
   "src"
   "src.pdb"
