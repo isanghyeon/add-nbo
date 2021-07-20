@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named src
+# Target rules for targets named add-nbo
 
 # Build rule for target.
-src: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src
-.PHONY : src
+add-nbo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add-nbo
+.PHONY : add-nbo
 
 # fast build rule for target.
-src/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
-.PHONY : src/fast
+add-nbo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/build
+.PHONY : add-nbo/fast
 
 add-nbo.o: add-nbo.c.o
 
@@ -148,7 +148,7 @@ add-nbo.o: add-nbo.c.o
 
 # target to build an object file
 add-nbo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/add-nbo.c.o
 .PHONY : add-nbo.c.o
 
 add-nbo.i: add-nbo.c.i
@@ -157,7 +157,7 @@ add-nbo.i: add-nbo.c.i
 
 # target to preprocess a source file
 add-nbo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/add-nbo.c.i
 .PHONY : add-nbo.c.i
 
 add-nbo.s: add-nbo.c.s
@@ -166,7 +166,7 @@ add-nbo.s: add-nbo.c.s
 
 # target to generate assembly for a file
 add-nbo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/add-nbo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/add-nbo.c.s
 .PHONY : add-nbo.c.s
 
 main.o: main.c.o
@@ -175,7 +175,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -184,7 +184,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -193,7 +193,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add-nbo.dir/build.make CMakeFiles/add-nbo.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -204,7 +204,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src"
+	@echo "... add-nbo"
 	@echo "... add-nbo.o"
 	@echo "... add-nbo.i"
 	@echo "... add-nbo.s"
