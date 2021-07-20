@@ -2,7 +2,7 @@
 
 ### how to make 
 ##### path : src/cmake-build-debug/
-##### command : cd src/cmake-build-debug/ & make clean; make
+##### command : cd src/cmake-build-debug/ && make clean; make
 
 ### how to run
 ##### path :  src/cmake-build-debug/add-nbo
