@@ -31,4 +31,5 @@ uint32_t add_nbo(uint32_t first_input, uint32_t second_input) {
     returnInputSum = tmp1 + tmp2;
     // 1000(0x3e8) + 500(0x1f4) = 1500(0x5dc) => 출력
     printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", tmp1, tmp1, tmp2, tmp2, returnInputSum, returnInputSum);
+    return 0;
 }
