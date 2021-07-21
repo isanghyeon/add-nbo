@@ -1,3 +1,0 @@
-/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/isanghyeon/Documents/Github/cpd4268/add-nbo/src/cmake-build-debug/CMakeFiles/add-nbo.dir
